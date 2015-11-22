@@ -20,7 +20,7 @@
 		<img src="~/Images/tabAngularJS.png" />
 	</div>
 	<div id="divMasterView">
-		<div id="{{customer.customerid}}" class="cssOneCompanyRecord"
+		<div id="{{Customer.CustomerID}}" class="cssOneCompanyRecord"
 			 ng-class="{cssCompanySelectedRecord: Customer.CustomerID == selectedCustomer}"
 			 ng-repeat='Customer in listOfCustomers'
 			 ng-click="selectCustomer(Customer);">
